@@ -13,3 +13,10 @@ A geometry wars game made using C++ and the sfml graphics library
 4: Enemies divide into smaller enemies on death
 
 5: Score system
+
+
+**Controls**
+
+1: WASD to move
+
+2: click to shoot
