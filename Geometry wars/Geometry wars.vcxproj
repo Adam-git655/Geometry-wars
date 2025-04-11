@@ -147,9 +147,6 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Vec2.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="D:\ADAMYA\assignment2-master\assignment2-master\README.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
