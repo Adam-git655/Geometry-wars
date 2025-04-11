@@ -15,7 +15,7 @@ A geometry wars game made using C++ and the sfml graphics library
 5: Score system
 
 
-**Controls**
+**Controls**:-
 
 1: WASD to move
 
