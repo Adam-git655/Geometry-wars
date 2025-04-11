@@ -1,0 +1,44 @@
+Window 1280 720 60 0
+Player 32 32 5 5 5 5 255 0 0 4 8
+Bullet 10 10 20 255 255 255 255 255 255 2 20 600
+Enemy 32 32 3 3 255 255 255 2 3 8 1200 60
+
+
+W Specifications:-
+W H FL FS
+- This line declares that the SFML Win must be constructed with width W 
+  and height H, each of which will be integers. FL is the frame limit that the
+  win should be set to, and FS will be an integer which specifies whether to 
+  display the application in full-screen mode (1) or not (0).
+
+P Specifications:-
+SR CR S FR FG FB OR OG OB OT V
+  Shape Radius      SR         int
+  Collision Radius  CR         int
+  Speed             S          float
+  Fill Color        FR,FG,FB   int,int,int
+  Outline Color     OR,OG,OB   int,int,int
+  Outline Thickness OT         int
+  Shape Vertices    V          int
+
+B Specifications:-
+SR CR S FR FG FB OR OG OB OT V L
+  Shape Radius      SR         int
+  Collision Radius  CR         int
+  Speed             S          float
+  Fill Color        FR,FG,FB   int,int,int
+  Outline Color     OR,OG,OB   int,int,int
+  Outline Thickness OT         int
+  Shape Vertices    V          int
+  Lifespan          L          int
+
+E Specifications:-
+SR CR SMIN SMAX OR OG OB OT VMIN VMAX L SI
+  Shape Radius      SR        int
+  Collision Radius  CR        int
+  Min / Max Speed   SMIN,SMAX float, float
+  Outline Color     OR,OG,OB  int,int,int
+  Outline Thickness OT        int
+  Min/Max Vertices  VMIN,VMAX int,int
+  Small Lifespan    L         int
+  Spawn Interval    SI        int
