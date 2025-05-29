@@ -1,4 +1,4 @@
-A geometry wars game made using C++ and the sfml graphics library
+A geometry wars game made using C++ and the sfml graphics library (ECS architecture)
 
 ![image](https://github.com/user-attachments/assets/d68c5cbf-5443-45f4-bf94-129689b2c3f7)
 
